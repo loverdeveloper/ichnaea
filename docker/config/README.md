@@ -99,7 +99,7 @@ PYRAMID_DEBUG_ALL=True
 
 The application runs with these defaults (from `local_dev.env`):
 
-- **Database**: `mysql+pymysql://root:location@db:3306/location`
+- **Database**: `mysql+pymysql://root:location@db:3306/location` (works for both MySQL and MariaDB)
 - **Redis**: `redis://redis:6379/0`
 - **Logging**: `INFO` level
 - **Celery Workers**: 1 concurrent worker
